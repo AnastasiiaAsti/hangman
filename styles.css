@@ -81,7 +81,7 @@ h1 {
     left: 0;
     right: 0;
     display: flex;
-    /* display: none; */
+    display: none;
     align-items: center;
     justify-content: center;
 }
@@ -92,4 +92,21 @@ h1 {
     box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
+}
+
+.popup button {
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+}
+
+.popup button:active {
+    transform: (scale(0.98));
+}
+
+.popup button:focus {
+    outline: 0;
 }
