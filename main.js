@@ -243,3 +243,19 @@ console.log(selectedWord);
 const correctLetter = [];
 const wrongLetters = [];
 
+function displayWord() {
+    wordEl.innerHTML = `
+    ${selectedWord
+        .split('')
+        .map(
+            letter => `
+            <span class="letter">
+            ${correctLetter.includes(letter) ? letter : ''}
+            </span>
+        `
+    ).join('')
+    }
+    `
+}
+
+displayWord()
