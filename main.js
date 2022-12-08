@@ -89,7 +89,7 @@ const words = ['abruptly',
     'gizmo',
     'glowworm',
     'glyph',
-    'gnarly,'
+    'gnarly',
     'gnostic',
     'gossip',
     'grogginess',
@@ -101,7 +101,7 @@ const words = ['abruptly',
     'injury',
     'ivory',
     'ivy',
-    'jackpot,'
+    'jackpot',
     'jaundice',
     'jawbreaker',
     'jaywalk',
@@ -235,3 +235,7 @@ const words = ['abruptly',
     'zipper',
     'zodiac',
     'zombie']
+
+let selectedWord = words[Math.floor(Math.random() * words.length)];
+    
+console.log(selectedWord);
