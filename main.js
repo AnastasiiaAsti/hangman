@@ -239,3 +239,7 @@ const words = ['abruptly',
 let selectedWord = words[Math.floor(Math.random() * words.length)];
     
 console.log(selectedWord);
+
+const correctLetter = [];
+const wrongLetters = [];
+
