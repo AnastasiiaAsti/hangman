@@ -250,6 +250,23 @@ function displayWord() {
         popup.style.display = 'flex';
     }
 }
+
+//update the wrong letter
+
+function updateWrongLettersEl() {
+    console.log('update wrong')
+}
+
+//show notification
+
+function showNotification() {
+    notification.classList.add('show');
+
+    setTimeout(() => {
+        notification.classList.remove('show');
+    }, 2000)
+}
+
 //keydown letter press
 
 window.addEventListener('keydown', e => {
